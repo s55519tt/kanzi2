@@ -228,7 +228,7 @@ function draw() {
     const board = document.getElementById("SimpleCanvas");
     const ctx = board.getContext("2d");
     const chara = new Image();
-    chara.src = "/Users/NEC-PCuser/Desktop/Javas/pawer.png";  // 画像のURLを指定
+    chara.src = "pawer.png";  // 画像のURLを指定
     chara.onload = () => {
     ctx.drawImage(chara, 0, 0);
     var imageData = ctx.getImageData(0, 0, chara.width, chara.height);
